@@ -2,6 +2,7 @@ import React from 'react'; // esto por si es corremos sobre React Js < 16.0
 import logo from './logo.svg';
 import './App.css';
 import Componente from './componets/Componente';
+import Propiedades from './componets/Propiedades';
 
 function App() {
   return (
@@ -21,6 +22,17 @@ function App() {
         </a>
         <section>
           <Componente msg="Hola soy un Componente "></Componente>
+          <hr />
+          <Propiedades
+            cadena="Esto de una cadena de Texto"
+            numero={19}
+            booleano={true}
+            arreglo={[1, 2, 3, 4]}
+            objeto={{ nombre: "Andres", correo: "andresssshk@gmail.com" }}
+            funcion={num => num * num}
+            elementoReact={<i>Esto es un elemento react</i>}
+            componenteReact={<Componente msg="Soy un componente pasado desde las props, "/>}
+          />
         </section>
         <br />
         <br />
