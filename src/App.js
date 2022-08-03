@@ -1,5 +1,7 @@
+import React from 'react'; // esto por si es corremos sobre React Js < 16.0
 import logo from './logo.svg';
 import './App.css';
+import Componente from './componets/Componente';
 
 function App() {
   return (
@@ -17,7 +19,20 @@ function App() {
         >
           Learn React
         </a>
+        <section>
+          <Componente msg="Hola soy un Componente "></Componente>
+        </section>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </header>
+
+
     </div>
   );
 }
