@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './componets/Componente';
 import Propiedades from './componets/Propiedades';
+import Estado from './componets/Estado';
 
 function App() {
   return (
@@ -31,15 +32,11 @@ function App() {
             objeto={{ nombre: "Andres", correo: "andresssshk@gmail.com" }}
             funcion={num => num * num}
             elementoReact={<i>Esto es un elemento react</i>}
-            componenteReact={<Componente msg="Soy un componente pasado desde las props, "/>}
+            componenteReact={<Componente msg="Soy un componente pasado desde las props, " />}
           />
+          <hr />
+          <Estado />
         </section>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
         <br />
         <br />
       </header>
