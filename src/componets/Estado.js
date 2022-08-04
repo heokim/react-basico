@@ -16,11 +16,15 @@ export default class Estado extends Component {
 			contador: 0,
 		}
 
+		/*
+		- comentado de momento, porque da warning porque no puede renderizar antes que empieze el constructor
+		- quitar este comentario cuando se este probando esta funcionalidad, asi no tener warning miestras se estan viendo otros temas
+
 		setInterval(() => {
 			this.setState({
 				contador: this.state.contador + 1,
 			});
-		}, 1000);
+		}, 1000);*/
 	}
 
 	render() {
