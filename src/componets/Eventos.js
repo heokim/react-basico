@@ -77,3 +77,43 @@ export class EventosES7 extends Component {
     )
   }
 }
+
+// Componente personalizado, de prueba
+// variante: nomal
+// function Boton(props) {
+//   return <button onClick={props.myOnClick}>Botón hecho componente</button>
+// }
+// variante: usando arrow funtions
+// const Boton = (props) => {
+//   return <button onClick={props.myOnClick}>Botón hecho componente</button>
+// }
+// variante: anterior + usando la tecnica de estructuracion del objeto
+const Boton = ({ myOnClick }) => {
+  return <button onClick={myOnClick}>Botón hecho componente</button>
+}
+
+
+export class MasSobreEventos extends Component {
+
+  handleClick = (e, mensaje) => {
+    console.log(e); // impresion del evento, es un objeto de React llamado: SyntheticBaseEvent, leer mas en la ducumentacion de react para ver los eventos que soporta este
+    console.log(e.nativeEvent); // es para obtener el evento nativo de Js
+    console.log(e.target);// objeto en el que esta incrustado el evento.
+    console.log(e.nativeEvent.target);
+
+    console.log('mensaje: ' + mensaje);
+  }
+
+  render() {
+    return (
+      <div>
+        <h2>Más Sobre Eventos</h2>
+        <button onClick={(e) => this.handleClick(e, "Hola, pasando parametro desde un evento")}>Saludar</button>
+
+        {/* Evento personalizado */}
+        {/* <Boton onClick={(e) => this.handleClick(e, "Evento desde otro componente")} /> // este no va a andar*/}
+        <Boton myOnClick={(e) => this.handleClick(e, "Evento desde otro componente")} />
+      </div>
+    )
+  }
+}
