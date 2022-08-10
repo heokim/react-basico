@@ -11,6 +11,7 @@ import ComunicacionComponentes from './componets/ComunicacionComponentes';
 import CicloVida from './componets/CicloVida';
 import AjaxApis from './componets/AjaxApis';
 import ContadorHooks from './componets/ContadorHooks';
+import ScrollHooks from './componets/ScrollHooks';
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
           <AjaxApis />
           <hr />
           <ContadorHooks />
+          <hr />
+          <ScrollHooks />
         </section>
         <br />
         <br />
