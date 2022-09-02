@@ -18,19 +18,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          Learn React with Official Site
         </a>
+        <hr style={{width:"500px"}} />
+          <a className="App-link" href="https://youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer">
+            Learn React with Jonmircha Youtube Channel
+          </a>
         <section>
-          <Componente msg="Hola soy un Componente "></Componente>
+
+          {/* <Componente msg="Hola soy un Componente "></Componente>
           <hr />
           <Propiedades
             cadena="Esto de una cadena de Texto"
@@ -59,7 +56,7 @@ function App() {
           <hr />
           <CicloVida />
           <hr />
-          <AjaxApis />
+          <AjaxApis /> */}
           <hr />
           <ContadorHooks />
           <hr />
