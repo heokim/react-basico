@@ -13,6 +13,7 @@ import AjaxApis from './componets/AjaxApis';
 import ContadorHooks from './componets/ContadorHooks';
 import ScrollHooks from './componets/ScrollHooks';
 import RelogHooks from './componets/RelogHooks';
+import AjaxHooks from './componets/AjaxHooks';
 
 function App() {
   return (
@@ -20,12 +21,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React with Official Site
+          Leer Documentacion Oficial de React
         </a>
-        <hr style={{width:"500px"}} />
-          <a className="App-link" href="https://youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer">
-            Learn React with Jonmircha Youtube Channel
-          </a>
+        <hr style={{ width: "500px" }} />
+        <a className="App-link" href="https://youtube.com/playlist?list=PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk" target="_blank" rel="noopener noreferrer">
+          Aprender React Js Youtube Playlist de Jonmircha
+        </a>
         <section>
 
           {/* <Componente msg="Hola soy un Componente "></Componente>
@@ -61,9 +62,11 @@ function App() {
           <hr />
           <ContadorHooks />
           <hr />
-          <ScrollHooks />*/}
-          <hr/>
+          <ScrollHooks />
+          <hr />
           <RelogHooks />
+          <hr />
+          <AjaxHooks />*/}
         </section>
         <br />
         <br />
