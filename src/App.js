@@ -15,6 +15,7 @@ import ScrollHooks from './componets/ScrollHooks';
 import RelogHooks from './componets/RelogHooks';
 import AjaxHooks from './componets/AjaxHooks';
 import HooksPersonalizados from './componets/HooksPersonalizados';
+import Referencias from './componets/Referencias';
 
 function App() {
   return (
@@ -67,9 +68,11 @@ function App() {
           <hr />
           <RelogHooks />
           <hr />
-          <AjaxHooks />*/}
+          <AjaxHooks />
           <hr />
-          <HooksPersonalizados />
+          <HooksPersonalizados />*/}
+          <hr />
+          <Referencias />
         </section>
         <br />
         <br />
