@@ -14,6 +14,7 @@ import ContadorHooks from './componets/ContadorHooks';
 import ScrollHooks from './componets/ScrollHooks';
 import RelogHooks from './componets/RelogHooks';
 import AjaxHooks from './componets/AjaxHooks';
+import HooksPersonalizados from './componets/HooksPersonalizados';
 
 function App() {
   return (
@@ -67,6 +68,8 @@ function App() {
           <RelogHooks />
           <hr />
           <AjaxHooks />*/}
+          <hr />
+          <HooksPersonalizados />
         </section>
         <br />
         <br />
