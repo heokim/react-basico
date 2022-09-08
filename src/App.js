@@ -18,6 +18,7 @@ import HooksPersonalizados from './componets/HooksPersonalizados';
 import Referencias from './componets/Referencias';
 import Formularios from './componets/Formularios';
 import Estilos from './componets/Estilos';
+import ComponentesEstilizados from './componets/ComponentesEstilizados';
 
 function App() {
   return (
@@ -76,9 +77,11 @@ function App() {
           <hr />
           <Referencias />
           <hr />
-          <Formularios />*/}
+          <Formularios />
           <hr />
-          <Estilos />
+          <Estilos />*/}
+          <hr />
+          <ComponentesEstilizados />
         </section>
         <br />
         <br />
