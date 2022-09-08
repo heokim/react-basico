@@ -17,6 +17,7 @@ import AjaxHooks from './componets/AjaxHooks';
 import HooksPersonalizados from './componets/HooksPersonalizados';
 import Referencias from './componets/Referencias';
 import Formularios from './componets/Formularios';
+import Estilos from './componets/Estilos';
 
 function App() {
   return (
@@ -73,9 +74,11 @@ function App() {
           <hr />
           <HooksPersonalizados />
           <hr />
-          <Referencias />*/}
+          <Referencias />
           <hr />
-          <Formularios />
+          <Formularios />*/}
+          <hr />
+          <Estilos />
         </section>
         <br />
         <br />
